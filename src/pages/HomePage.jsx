@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
 import HeroSection from "../components/HomePage/Hero";
 import Footer from "../components/Footer";
+import MatchSteps from "../components/HomePage/FindMatchForYou";
 
 export function HomePage() {
   return (
@@ -11,6 +12,7 @@ export function HomePage() {
         {" "}
         <Navbar />
         <HeroSection />
+        <MatchSteps />
         <Footer />
       </Router>
     </div>

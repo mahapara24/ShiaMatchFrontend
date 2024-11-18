@@ -10,7 +10,7 @@ const HeroSection = () => {
       >
         <div className="bg-black bg-opacity-50 h-full rounded-md p-8 md:p-16 text-white">
           <h1 className="text-3xl md:text-5xl  pt-32 font-semibold mb-4">
-            The first AI powered Shia-Muslim matchmaking platform
+            Successful match making for the Shia Muslim Community Worldwide
           </h1>
           <p className="text-3xl md:text-5xl  font-semibold mb-4">
             Created to help single Muslims find their partner while maintaining
