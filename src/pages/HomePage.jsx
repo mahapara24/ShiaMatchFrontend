@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import HeroSection from "../components/HomePage/Hero";
 import Footer from "../components/Footer";
 import MatchSteps from "../components/HomePage/FindMatchForYou";
+import CommunitySection from "../components/HomePage/CommunitySection";
 
 export function HomePage() {
   return (
@@ -13,6 +14,7 @@ export function HomePage() {
         <Navbar />
         <HeroSection />
         <MatchSteps />
+        <CommunitySection />
         <Footer />
       </Router>
     </div>

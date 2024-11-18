@@ -34,7 +34,7 @@ const MatchSteps = () => {
       <img
         src={goldleaves}
         alt="Left Decoration"
-        className="hidden lg:block h-16  mt-[60px] w-16 md:h-32 md:w-32 lg:h-52 lg:w-52 "
+        className="hidden lg:block h-16  mt-[40px] w-16 md:h-32 md:w-32 lg:h-52 lg:w-52 "
       />
 
       {/* Main Content */}
