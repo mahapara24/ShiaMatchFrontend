@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
 import HeroSection from "../components/HomePage/Hero";
+import Footer from "../components/Footer";
 
 export function HomePage() {
   return (
@@ -10,8 +11,8 @@ export function HomePage() {
         {" "}
         <Navbar />
         <HeroSection />
+        <Footer />
       </Router>
-      HomePage
     </div>
   );
 }
