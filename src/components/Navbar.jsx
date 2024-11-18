@@ -120,7 +120,7 @@ const Navbar = () => {
       )}
 
       {/* Mobile Menu Toggle Button (Only shown on small devices) */}
-      <div className="fixed right-4 lg:hidden md:px-10 z-50 flex items-center">
+      <div className="absolute right-4 lg:hidden md:px-10 z-50 flex items-center">
         <button
           onClick={toggleMobileMenu}
           className="text-gray-700 focus:outline-none"

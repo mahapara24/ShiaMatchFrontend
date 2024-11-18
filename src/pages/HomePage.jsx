@@ -5,6 +5,7 @@ import HeroSection from "../components/HomePage/Hero";
 import Footer from "../components/Footer";
 import MatchSteps from "../components/HomePage/FindMatchForYou";
 import CommunitySection from "../components/HomePage/CommunitySection";
+import FeaturesSection from "../components/HomePage/FeaturesSection";
 
 export function HomePage() {
   return (
