@@ -29,7 +29,7 @@ const MatchSteps = () => {
   ];
 
   return (
-    <div className="bg-white py-12  relative flex flex-col lg:flex-row justify-center items-center space-y-8 lg:space-y-10 ">
+    <div className="bg-white pb-12 mt-2  relative flex flex-col lg:flex-row justify-center items-center space-y- lg:space-y-0 ">
       {/* Decorative Image for Left Side */}
       <img
         src={goldleaves}
@@ -39,7 +39,7 @@ const MatchSteps = () => {
 
       {/* Main Content */}
       <div className=" w-full flex flex-col items-center ">
-        <h2 className="text-3xl flex-nowrap  text-gray-900  md:text-5xl flex justify-center items-center font-bold text-center mb-8 lg:mb-12">
+        <h2 className="text-3xl flex-nowrap  text-gray-900  lg:text-5xl flex justify-center items-center font-bold text-center mb-8 lg:mb-12">
           <img
             src={goldleaves}
             alt="Left Decoration"
