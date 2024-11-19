@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
 
+        Merienda: ["Merienda ", "cursive"],
         charm: ['"Charm"', "cursive"],
       },
     },

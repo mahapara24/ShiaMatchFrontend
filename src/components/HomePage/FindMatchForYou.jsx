@@ -29,7 +29,7 @@ const MatchSteps = () => {
   ];
 
   return (
-    <div className="bg-white pb-12 mt-2 font-poppins   relative flex flex-col lg:flex-row justify-center items-center space-y- lg:space-y-0 ">
+    <div className="bg-white pb-12 mt-12 font-poppins   relative flex flex-col lg:flex-row justify-center items-center space-y- lg:space-y-0 ">
       {/* Decorative Image for Left Side */}
       <img
         src={goldleaves}

@@ -8,6 +8,7 @@ import CommunitySection from "../components/HomePage/CommunitySection";
 import FeaturesSection from "../components/HomePage/FeaturesSection";
 import ImageSection from "../components/HomePage/ImageSection";
 import LogoSection from "../components/HomePage/LogoSection";
+import AboutShiaMatch from "../components/HomePage/AboutShiaMatch";
 
 export function HomePage() {
   return (
@@ -16,6 +17,7 @@ export function HomePage() {
         {" "}
         <Navbar />
         <HeroSection />
+        <AboutShiaMatch />
         <MatchSteps />
         <CommunitySection />
         <FeaturesSection />
