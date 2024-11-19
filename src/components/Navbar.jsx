@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="font-poppins overflow-x-hidden h-48 bg-white shadow-md py-4 flex justify-between items-center relative">
       {/* Logo */}
       <div
-        className={`ml-10 text-3xl font-bold mx-4 text-gold-500 z-50 ${
+        className={` text-3xl font-bold px-4 text-gold-500 z-50 ${
           isMobileMenuOpen ? "hidden" : "block lg:block"
         }`}
       >
@@ -50,14 +50,14 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 z-40 bg-white top-0 h-screen pt-20 px-10 flex flex-col items-start space-y-12 py-10 lg:hidden transform transition-all duration-300 ease-in-out ${
+        className={`fixed inset-0 z-40 bg-white top-0 h-screen pt-20 px-4 flex flex-col items-start space-y-12 py-10 lg:hidden transform transition-all duration-300 ease-in-out ${
           isMobileMenuOpen
             ? "translate-y-0 opacity-100"
             : "translate-y-full opacity-0 pointer-events-none"
         }`}
       >
         <div className="text-3xl font-bold mb-10">ShiaMatch.com</div>
-        <div className="flex text-xl flex-col space-y-6">
+        <div className="flex px-10 text-xl flex-col space-y-6">
           {["home", "about", "how-it-works", "faqs", "contact", "login"].map(
             (item, index) => (
               <Link
