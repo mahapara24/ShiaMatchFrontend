@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import MatchSteps from "../components/HomePage/FindMatchForYou";
 import CommunitySection from "../components/HomePage/CommunitySection";
 import FeaturesSection from "../components/HomePage/FeaturesSection";
+import ImageSection from "../components/HomePage/ImageSection";
 
 export function HomePage() {
   return (
@@ -17,6 +18,7 @@ export function HomePage() {
         <MatchSteps />
         <CommunitySection />
         <FeaturesSection />
+        <ImageSection />
         <Footer />
       </Router>
     </div>
