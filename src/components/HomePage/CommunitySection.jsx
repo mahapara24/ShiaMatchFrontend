@@ -4,7 +4,7 @@ import HoldingHandRings from "../../assets/HoldingHandRings.jpg";
 
 const CommunitySection = () => {
   return (
-    <section className="py-16 bg-white text-center">
+    <section className="font-poppins  py-16 bg-white text-center">
       <h2 className="text-4xl md:text-5xl lg:text-6xl text-gray-800 px-10 md:px-24 font-medium mb-28">
         Now serving communities across the USA and Canada!
       </h2>

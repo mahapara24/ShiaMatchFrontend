@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { HiMenuAlt4 } from "react-icons/hi";
+import { IoCloseSharp } from "react-icons/io5";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,7 +18,7 @@ const Navbar = () => {
       <div
         className={`${
           isMobileMenuOpen ? "hidden" : "block"
-        } lg:block text-2xl md:text-3xl font-bold mx-4 text-gold-500 z-50`}
+        } lg:block text-2xl ml-10 md:text-3xl font-bold mx-4 text-gold-500 z-50`}
       >
         ShiaMatch.com
       </div>
@@ -128,36 +130,10 @@ const Navbar = () => {
         >
           {isMobileMenuOpen ? (
             // Close Icon
-            <svg
-              className="w-10 h-10"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
+            <IoCloseSharp size={50} />
           ) : (
             // Hamburger Icon
-            <svg
-              className="w-10 h-10"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
+            <HiMenuAlt4 size={50} />
           )}
         </button>
       </div>

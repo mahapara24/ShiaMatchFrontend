@@ -9,8 +9,8 @@ const HeroSection = () => {
         className="w-full h-[800px] bg-cover bg-center bg-no-repeat flex items-center justify-center text-center relative"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="bg-black bg-opacity-50 h-full rounded-md p-8 md:p-16 text-white">
-          <h1 className="text-3xl md:text-5xl pt-32 font-semibold mb-4">
+        <div className="font-poppins  bg-black bg-opacity-50 h-full rounded-md p-8 md:p-16 text-white">
+          <h1 className="text-3xl  md:text-5xl pt-32 font-semibold mb-4">
             Successful match making for the Shia Muslim Community Worldwide
           </h1>
           <p className="text-3xl md:text-5xl font-semibold mb-4">

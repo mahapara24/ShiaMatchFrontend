@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="h-[30vh] flex flex-col justify-center items-center bg-[#C1A16A] text-center py-4 px-2 sm:px-6">
+    <footer className="h-[30vh] font-poppins  flex flex-col justify-center items-center bg-[#C1A16A] text-center py-4 px-2 sm:px-6">
       <div className="text-base sm:text-lg text-gray-800 mb-4 space-y-2 sm:space-y-0">
         <nav className="flex flex-wrap space-x-2 justify-center items-center sm:flex-row sm:space-x-4">
           <Link to="/about" className="hover:underline">

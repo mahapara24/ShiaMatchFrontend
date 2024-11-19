@@ -11,7 +11,7 @@ const ImageSection = () => {
         className="w-full h-full object-cover shadow-lg"
       />
       {/* Text Overlay */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-white bg-gradient-to-t from-black/50 via-black/30 to-transparent">
+      <div className="absolute font-charm inset-0 flex flex-col justify-center items-center text-white bg-gradient-to-t from-black/50 via-black/30 to-transparent">
         <h1 className=" text-3xl md:text-5xl lg:text-7xl font-bold mb-4 text-center">
           And We Created You in Pairs
         </h1>

@@ -27,16 +27,16 @@ const FeaturesSection = () => {
   return (
     <div
       id="features-section"
-      className={`bg-[#253551] flex flex-col h-full justify-center gap-10 items-center text-white py-[10vh] lg:py-[18vh] px-4`}
+      className={`bg-[#253551] font-poppins  flex flex-col h-full justify-center gap-10 items-center text-white py-[10vh] lg:py-[18vh] px-4`}
     >
       <h2
         className={`text-center text-3xl md:text-4xl lg:text-5xl font-light mb-8 transition-opacity duration-700 ease-in-out ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
-        What Makes Azwaja Different from Other Matrimonial Services?
+        What Makes ShiaMatch Different from Other Matrimonial Services?
       </h2>
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-20 lg:gap-40 mb-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-20 lg:gap-30 mb-8">
         <div
           className={`flex flex-col items-center transition-opacity duration-700 ease-in-out ${
             isVisible
@@ -101,7 +101,7 @@ const FeaturesSection = () => {
           to="/learn-more"
           className="bg-white text-center lg:text-2xl text-[#253551] py-2 px-8 text-xl lg:py-4 lg:px-10 rounded-full hover:bg-gray-200 transition"
         >
-          To learn more about Azwaja's features, click here.
+          To learn more about ShiaMatch's features, click here.
         </Link>
       </div>
     </div>

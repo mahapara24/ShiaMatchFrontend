@@ -5,6 +5,8 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+
+        charm: ['"Charm"', "cursive"],
       },
     },
   },
