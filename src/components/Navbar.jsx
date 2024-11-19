@@ -71,7 +71,7 @@ const Navbar = () => {
             )
           )}
         </div>
-        <button className="block lg:hidden bg-[#9D885E] text-black px-4 py-2 rounded-full hover:bg-[#a18753]">
+        <button className="block px-10 lg:hidden bg-[#9D885E] text-black px-4 py-2 rounded-full hover:bg-[#a18753]">
           Enroll Today!
         </button>
       </div>
