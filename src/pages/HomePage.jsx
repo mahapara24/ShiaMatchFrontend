@@ -16,6 +16,7 @@ export function HomePage() {
         <HeroSection />
         <MatchSteps />
         <CommunitySection />
+        <FeaturesSection />
         <Footer />
       </Router>
     </div>
