@@ -20,6 +20,7 @@ const HeroSection = () => {
 
           <CustomButton
             color="bg-[#9D885E]"
+            textColor="black"
             customStyles="hover:bg-[#6d5c39] mt-14 text-black rounded-full transition duration-300 ease-in-out 
                py-3 px-8 text-lg font-medium 
                md:py-4 md:px-12 md:text-xl 

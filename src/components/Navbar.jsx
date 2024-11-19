@@ -43,7 +43,7 @@ const Navbar = () => {
             )
           )}
         </div>
-        <button className="hidden lg:block bg-[#a51600] text-white px-4 py-2 rounded-full hover:bg-[#921800]">
+        <button className="hidden lg:block bg-[#9D885E] text-black px-4 py-2 rounded-full hover:bg-[#a18753]">
           Enroll Today!
         </button>
       </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
             )
           )}
         </div>
-        <button className="block lg:hidden bg-[#a51600] text-white px-4 py-2 rounded-full hover:bg-[#921800]">
+        <button className="block lg:hidden bg-[#9D885E] text-black px-4 py-2 rounded-full hover:bg-[#a18753]">
           Enroll Today!
         </button>
       </div>
