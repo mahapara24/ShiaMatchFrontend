@@ -57,7 +57,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 z-40 bg-white top-0 h-screen pt-14 px-4 flex flex-col items-start space-y-6 py-8 lg:hidden transform transition-all duration-300 ease-in-out ${
+        className={`fixed inset-0 z-40 bg-white top-0 h-screen pt-20 px-4 flex flex-col items-start space-y-4 py-10 lg:hidden transform transition-all duration-300 ease-in-out ${
           isMobileMenuOpen
             ? "translate-y-0 opacity-100"
             : "translate-y-full opacity-0 pointer-events-none"
